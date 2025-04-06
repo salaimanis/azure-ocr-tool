@@ -63,7 +63,7 @@ if uploaded_file and st.button("Extract Text"):
 
             if extracted_text:
                 st.subheader("Extracted Text")
-                st.text_area("", extracted_text.strip(), height=300, label_visibility="collapsed")
+                st.text_area("Extracted Text Area", extracted_text, height=300, label_visibility="collapsed")
 
             if tables:
                 st.subheader("Detected Table(s)")
