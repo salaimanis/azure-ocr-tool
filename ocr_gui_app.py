@@ -23,8 +23,8 @@ client = DocumentAnalysisClient(
 )
 
 st.set_page_config(page_title="AI OCR Tool", layout="centered")
-st.title("📄 AI OCR Tool with Azure Document Intelligence")
-st.markdown("Upload an image and extract clean text. Tables supported ✨")
+st.title("📄OCR Tool with Azure Document Intelligence")
+st.markdown("Upload an image and extract clean text. High Accuracy, Tables and Multilingual Support. ✨")
 
 uploaded_file = st.file_uploader("Choose an image", type=["png", "jpg", "jpeg"])
 output_format = st.selectbox("Select output format", ["Text", "Word", "PDF", "Excel"])
