@@ -1,4 +1,4 @@
-# 🖼️ Azure OCR Tool
+so# 🖼️ Azure OCR Tool
 
 A Python app using **Azure Document Intelligence API** to extract text and tables from image files (JPEG, PNG, etc.). It features a simple **Streamlit** GUI for a smooth user experience.
 
@@ -42,7 +42,7 @@ Azure provides limited free usage of Document Intelligence. This includes:
 
 ### 1. Clone the Repository  
 ```bash
-git clone https://github.com/your-username/azure-ocr-tool.git
+git clone https://github.com/salaimanis/azure-ocr-tool.git
 cd azure-ocr-tool
 ```
 
